@@ -116,9 +116,93 @@ body {
     background-color: #FFF4D6;
 }
 
+/* extra container */
+.extra-container {
+    margin: 0;
+    padding: 0;
+    background: #060214;
+}
+
+.extra-container h1 {
+    color: #FF0000;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.work-maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.work-container {
+    background: red;
+    height: 200px;
+    width: 400px;
+}
+
+.work-maincontainer img {
+    height: 95px;
+    width: 95px;
+    fill: #fff;
+    padding-top: 10px;
+}
+
+.work-maincontainer p {
+    color: #fff;
+    font-size: 17px;
+
+}
+
 /* section five */
-.form-style {
-    background-color: rgba(255, 99, 71, 0.147);
+.form-container {
+    background-color: rgba(255, 192, 203, 0.361);
+    margin: 0 auto;
+    width: 40%;
+    height: 175px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+
+    width: 600px;
+    height: 55px;
+    display: flex;
+
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 25px 0 0 25px;
+    font-size: 20px;
+
+
+}
+
+form button {
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+footer {
     height: 150px;
-    width: 35%;
+    background: #010c17;
+    margin-top: 20px;
+    color: tomato;
 }
