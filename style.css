@@ -98,8 +98,7 @@ body {
     color: rgba(5, 4, 4, 0.799);
     height: 200px;
     width: 350px;
-    padding-top: 15px;
-    margin-top: 15px;
+    padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
 }
